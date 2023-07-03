@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Experience the Nature</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Experience the Nature</a></div>
+            <ul class="links">
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Services">Services</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+            <a href="#" class="action-btn">Get Started</a>
+            <div class="toggle-btn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown-menu">
+            <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Services">Services</a></li>
+                <li><a href="Contact">Contact</a></li>
+                <li><a href="#" class="action-btn">Get Started</a></li>
+        </div>
+    </header>
+
+    <main>
+        <section id="Home">
+            <h1>Welcome to trekking</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, aliquid.</p>
+        </section>
+    </main>
+    <script src="index.js"></script>
+
+    <!-- <script>
+        const toggleBtn = document.querySelector('.toggle-btn')
+        const toggleBtnIcon = document.querySelector('.toggle-btn i')
+        const DropdownMenu = document.querySelector('.dropdown-menu')
+
+        toggleBtn.onclick = function(){
+            DropdownMenu.classList.toggle('open')
+            const isOpen = DropdownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-sharp fa-solid fa-xmark'
+            : 'fa-sharp fa-solid fa-bars'
+        }
+    </script> -->
+</body>
+</html>
